@@ -23,7 +23,6 @@ import {
   AddCircleOutline as CreateIcon,
   Notifications as NotificationsIcon,
   Person as PersonIcon,
-  Message as MessageIcon,
   Menu as MenuIcon,
 } from '@mui/icons-material';
 import { images } from '../assets/images';
