@@ -4,7 +4,6 @@ import {
   Container,
   Box,
   Typography,
-  Grid,
   Card,
   CardContent,
   CardMedia,
@@ -13,7 +12,6 @@ import {
   IconButton,
   Avatar,
   Stack,
-  Divider,
 } from '@mui/material';
 import {
   Favorite,
@@ -41,6 +39,8 @@ const featuredContent = [
     comments: 45,
     isLiked: false,
     isSaved: false,
+    timestamp: '2 hours ago',
+    category: 'Architecture',
   },
   {
     id: 2,
@@ -55,6 +55,8 @@ const featuredContent = [
     comments: 38,
     isLiked: true,
     isSaved: true,
+    timestamp: '4 hours ago',
+    category: 'Music',
   },
   {
     id: 3,
@@ -69,6 +71,8 @@ const featuredContent = [
     comments: 45,
     isLiked: false,
     isSaved: false,
+    timestamp: '6 hours ago',
+    category: 'Dance',
   },
 ];
 

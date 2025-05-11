@@ -10,7 +10,6 @@ import {
   Stack,
   IconButton,
   Avatar,
-  Chip,
   Button,
 } from '@mui/material';
 import {
@@ -21,7 +20,6 @@ import {
   BookmarkBorder,
   Bookmark,
 } from '@mui/icons-material';
-import { images } from '../assets/images';
 
 interface CategoryPageProps {
   category: string;
